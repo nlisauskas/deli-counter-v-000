@@ -6,7 +6,7 @@ def line(array)
   elsif array.length > 0 then
     x = 0
     new_array = while x < array.length
-      puts "#{x + 1}. #{array[x]}"
+      "#{x + 1}. #{array[x]}"
     x += 1
   end
   puts "The line is currently: #{new_array}"
