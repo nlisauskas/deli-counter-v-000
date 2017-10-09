@@ -12,3 +12,9 @@ def line(array)
     puts current_line
   end
 end
+
+def take_a_number(array, name)
+  index = array.index("name")
+  customer_name = array[index]
+  return "Welcome, #{customer_name}. You are number #{index + 1} in line."
+end
