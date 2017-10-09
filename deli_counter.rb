@@ -16,6 +16,9 @@ end
 def take_a_number(array, name)
   if array.empty?
     array.push(name)
+    index = array.index("name").to_i
+    customer_name = array[index]
+    return "Welcome, #{customer_name}. You are number #{index + 1} in line."  
   else
   index = array.index("name").to_i
   customer_name = array[index]
